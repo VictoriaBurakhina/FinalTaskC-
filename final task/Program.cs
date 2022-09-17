@@ -36,7 +36,7 @@ void PrintArray(string [] array)
     Console.WriteLine();
 }
 
-int NumbersOfArrayWithFourElements(string [] array) 
+int NumbersOfArrayWithThreeElements(string [] array) 
 {
 int n = 0;
     for(int i = 0; i < array.Length; i++)
@@ -51,7 +51,7 @@ int n = 0;
 
 string [] GetResultArray(string [] array)
 {
-    int n = NumbersOfArrayWithFourElements(array);
+    int n = NumbersOfArrayWithThreeElements(array);
     string [] result = new string [n];
     int j = 0;
     for(int i = 0; i < array.Length; i++)
