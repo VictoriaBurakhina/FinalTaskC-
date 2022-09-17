@@ -19,12 +19,10 @@ PrintArray(newArray);
 
 string [] FillStringArray(string [] array)
 {
-    
     for(int i = 0; i < array.Length; i++)
     {
        Console.WriteLine("Введите элементы массива строк: ");
        array[i]= Console.ReadLine();
-       
     }
     return array;
 }
@@ -51,7 +49,6 @@ int n = 0;
     return n;
 }
 
-
 string [] GetResultArray(string [] array)
 {
     int n = NumbersOfArrayWithFourElements(array);
@@ -63,7 +60,6 @@ string [] GetResultArray(string [] array)
         {
              result[j] = array[i];
              j++;
-
         }
     }
     return result;
